@@ -13,3 +13,11 @@ android {
     compileSdkVersion 10
     buildToolsVersion "26.0.1"
 }
+
+repositories{
+    jcenter()
+}
+
+dependencies{
+    compile 'joda-time:joda-time:2.7'
+}
