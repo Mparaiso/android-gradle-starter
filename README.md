@@ -1,4 +1,5 @@
-#Creating an android project from scratch
+Creating an android project from scratch
+----------------------------------------
 
 This is a android/gradle starter template project.
 
