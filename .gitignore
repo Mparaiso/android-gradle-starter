@@ -1,2 +1,13 @@
 .gradle
+.idea
+.settings
+.vscode
 build
+bin
+.project
+.classpath
+*.iml
+gradlew
+gradlew.bat
+local.properties
+gradle

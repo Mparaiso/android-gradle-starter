@@ -3,13 +3,27 @@ buildscript{
         jcenter()
     }
     dependencies{
-        classpath 'com.android.tools.build:gradle:2.3.2'
+        classpath 'com.android.tools.build:gradle:2.3.3'
     }
 }
 // this is a comment
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 10
+    compileSdkVersion 26
     buildToolsVersion "26.0.1"
+    defaultConfig {
+        minSdkVersion 10
+    }
+}
+
+repositories{
+    maven {
+        url "https://maven.google.com"
+    }
+}
+
+dependencies {
+    // compile "com.android.support:support-core-utils:25.4.0"
+    compile "com.android.support:appcompat-v7:25.4.0"
 }
